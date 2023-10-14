@@ -15,8 +15,8 @@ print("Fin del ciclo") #Si la respuesta booleana de la iteración no es verdader
 ```
 ##### El diagrama de flujo sería el siguiente:
 
-``` mermaid
-graph TD
+```mermaid
+flowchart TD;
     A(Inicio) --> B[Inicializar n con 1]
     B --> C[¿n <= 100?]
     C -- Sí --> D[Calcular cuadrado: n^2]
@@ -25,7 +25,6 @@ graph TD
     F --> C
     C -- No --> G[Fin del ciclo]
     G --> H[Fin]
-
 ```
 ---
 #### 2. Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
@@ -47,7 +46,8 @@ print (iLista, pLista, sep=" ; ") #Pedimos que imprima los resultados de cada li
 print("Fin del ciclo") #Fin del ciclo
 ```
 ##### Diagrama de flujo:
-``` mermaid
+
+```mermaid
 graph TD
     A(Inicio) --> B[Inicializar n con 1]
     B --> C[Inicializar iLista y pLista como listas vacías]
@@ -63,7 +63,6 @@ graph TD
     D -- No --> K[Mostrar iLista y pLista]
     K --> L[Fin del ciclo]
     L --> M(Fin)
-
 ```
 ---
 #### 3. Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado.
@@ -83,7 +82,8 @@ print(pLista) # Imprimimos la lista 'pLista' que es donde estarán los enteros
 print("Fin del ciclo") #Si ya se acaba la iteración se finaliza el ciclo
 ```
 ##### Diagrama de Flujo
-``` mermaid
+
+```mermaid
 graph TD
     A(Inicio) --> B[Ingresar un valor para n]
     B --> C[Inicializar pLista como lista vacía]
@@ -98,7 +98,6 @@ graph TD
     D -- No --> J[Mostrar pLista]
     J --> K[Fin del ciclo]
     K --> L(Fin)
-
 ```
 ---
 #### 4. En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
