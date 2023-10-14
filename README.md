@@ -25,6 +25,7 @@ graph TD
     C -- No --> G[Fin del ciclo]
     G --> H[Fin]
 ```
+---
 #### 2. Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 ##### Solución:
 La documentación del código estará en el mismo código
@@ -61,6 +62,7 @@ graph TD
     K --> L[Fin del ciclo]
     L --> M(Fin)
 ```
+---
 #### 3. Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado.
 ##### Solución
 La documentación del código está en el mismo código al ponerse comentarios. De esta manera se entenderá más fácil
@@ -94,6 +96,7 @@ graph TD
     J --> K[Fin del ciclo]
     K --> L(Fin)
 ```
+---
 #### 4. En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
 ##### Solución:
 La documentación del código está en el mismo código al ponerse comentarios. De esta manera se entenderá más fácil
